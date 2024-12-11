@@ -352,7 +352,7 @@ a {
 }
 
 .team-social-link:hover {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .team-social-icon {
@@ -430,8 +430,15 @@ a {
 /* #region================= FOOTER =================*/
 
 footer {
+  margin-left: 0;
   background-color: #2e2f42;
   padding: 100px 0;
+  color: #f4f4fd;
+}
+
+footer .container {
+  display: flex;
+  gap: 120px;
 }
 
 footer .logo {
@@ -444,7 +451,41 @@ footer .part-of-logo {
 }
 
 .footer-text {
-  color: #f4f4fd;
   max-width: 264px;
 }
+
+.footer-social {
+  width: 208px;
+}
+
+.footer-social-text {
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.footer-social-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.footer-social-link {
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #4d5ae5;
+}
+
+.footer-social-icon {
+  width: 100%;
+  height: 100%;
+  fill: #f4f4fd;
+}
+
+.footer-social-link:hover {
+  background-color: #31d0aa;
+}
+
 /* #endregion */
